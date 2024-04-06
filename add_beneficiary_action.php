@@ -46,6 +46,8 @@ if ($result->num_rows > 0) {
        
              )";
 
+             
+
         if (($conn->query($sql1) === TRUE)) {
             $success = 1;
         }
@@ -53,6 +55,7 @@ if ($result->num_rows > 0) {
         $success = -1;
     }
 }
+// This is make error...
 ?>
 
 <!DOCTYPE html>
