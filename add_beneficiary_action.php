@@ -18,6 +18,11 @@ $email = mysqli_real_escape_string($conn, $_POST["email"]);
 $phno = mysqli_real_escape_string($conn, $_POST["phno"]);
 
 
+
+
+
+
+
 $id = $_SESSION['loggedIn_cust_id'];
 $sql0 = "SELECT cust_id FROM customer WHERE first_name='" . $fname . "' AND
           
